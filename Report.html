@@ -82,7 +82,9 @@ class DBInterface
 $Query = "SELECT * FROM users ORDER BY Timestamp";
 $ResultsSet = DBInterface::ExecuteQuery($Query);
 
-echo "<label style='font-weight:bold;'>User Report</label>";
+echo "<label style='font-weight:bold;'>";
+echo "Registered User Report";
+echo "</label>";
 echo "<table class='DataEntry' cellpadding='2' cellspacing='0'>";
 		echo "<tr>";
 		
